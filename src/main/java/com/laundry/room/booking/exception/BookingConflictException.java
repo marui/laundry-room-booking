@@ -5,4 +5,5 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 
 
 @ResponseStatus(value = HttpStatus.CONFLICT, reason = "Booking timeslot is conflicted")
-public class BookingConflictException extends RuntimeException {}
+public class BookingConflictException extends RuntimeException {
+}

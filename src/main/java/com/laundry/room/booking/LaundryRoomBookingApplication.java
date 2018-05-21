@@ -11,5 +11,5 @@ import org.springframework.context.annotation.Configuration;
 public class LaundryRoomBookingApplication {
     public static void main(String[] args) {
         new SpringApplicationBuilder(LaundryRoomBookingApplication.class).run(args);
-	}
+    }
 }
